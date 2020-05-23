@@ -40,7 +40,7 @@ body {
 .hero_section {
     display: flex; 
     color: white; 
-    background-color: black;
+    background-color: black; 
     height: 400px;
 }
 .hero_section_imagecontainer {
@@ -94,15 +94,19 @@ body {
     height: 100%; 
 }
 .footer_left {
+    color: white; 
     width: 30%;
+    display: flex; 
+    align-items: flex-end; 
+    padding-left: 20px; 
 }
 .footer_center {
     width: 40%;
 }
 .footer_right {
-    width: 30%;
-    display: flex; 
-    padding: 20px; 
+    width: 20%;
+    padding-top: 20px; 
+    padding-left: 70px; 
 }
 .footer {
     display: flex;
@@ -113,6 +117,11 @@ body {
     color: white;
     font-family: Josefin Sans; sans-serif;
     font-size: 20px; 
+    
+}
+.social_icons {
+    display: flex; 
+    flex-direction: row; 
 }
 .email {
     padding: 10px;
